@@ -2,6 +2,9 @@
 
 Un clon de la interfaz web de Notion construido con Astro y tecnologías modernas.
 
+<img width="1423" alt="Captura de pantalla 2025-05-14 a la(s) 3 31 03 p  m" src="https://github.com/user-attachments/assets/64452c29-cb47-4bdb-ac15-62d30c93cd08" />
+
+
 ## 🚀 Características
 
 - Interfaz moderna y minimalista
