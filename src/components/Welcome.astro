@@ -1,5 +1,22 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import SecondaryButton from "./SecondaryButton.astro";
 ---
 
-<h1>Notion Clone</h1>
+<main class="flex flex-col items-center min-h-screen w-full gap-10">
+  <picture class="w-full">
+    <img src="/img/noseyHeroV2.png" alt="Imagen de Nosey" />
+  </picture>
+  <div class="w-full">
+    <h1 class="text-5xl text-center">
+      El espacio de trabajo con IA que se adapta a ti.
+    </h1>
+    <h2 class="text-lg text-center">
+      Un solo lugar donde los equipos encuentran todas las respuestas,
+      automatizan las tareas rutinarias y completan cada proyecto.
+    </h2>
+  </div>
+  <div class="flex gap-5 flex-col">
+    <SecondaryButton text="Obtén Notion gratis" isBlue={true} />
+    <SecondaryButton text="Solicitar una demo" isBlue={false} />
+  </div>
+</main>

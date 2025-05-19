@@ -1,0 +1,15 @@
+---
+interface Props {
+  text: string;
+  isBlue?: boolean;
+}
+
+const { text, isBlue } = Astro.props;
+---
+
+<button
+  class:list={[
+    "px-10 py-3 rounded-lg text-lg",
+    isBlue ? "bg-blue-500 text-white" : "bg-blue-300/30 text-blue-500",
+  ]}>{text}</button
+>
