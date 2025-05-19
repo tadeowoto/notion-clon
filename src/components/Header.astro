@@ -1,0 +1,17 @@
+---
+import Logo from "../icons/logo.astro";
+import MainButton from "./MainButton.astro";
+import { HeaderMenu } from "./HeaderMenu.tsx";
+---
+
+<header class="w-full h-16 bg-amber-200 flex items-center justify-between px-4">
+  <picture>
+    <a href="/">
+      <Logo />
+    </a>
+  </picture>
+  <div class="flex items-center gap-5">
+    <MainButton text="Obtener Notion Gratis" href="/" />
+    <HeaderMenu client:visible />
+  </div>
+</header>
